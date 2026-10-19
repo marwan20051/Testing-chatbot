@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BrightPath HR Portal</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font: 16px/1.5 system-ui, sans-serif;
+      color: #183044;
+      background: #f2f6f8;
+    }
+    main {
+      max-width: 850px;
+      margin: 60px auto;
+      padding: 32px;
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 8px 30px #18304415;
+    }
+    h1 { margin-top: 0; color: #126b78; }
+    .links {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 16px;
+      margin-top: 28px;
+    }
+    .card {
+      display: block;
+      padding: 24px;
+      border: 1px solid #c9dfe1;
+      border-radius: 12px;
+      background: #eef7f7;
+      color: #183044;
+      text-decoration: none;
+    }
+    .card:hover, .card:focus-visible {
+      border-color: #126b78;
+      box-shadow: 0 4px 16px #126b7826;
+    }
+    .card h2 { margin: 0 0 8px; color: #126b78; }
+    .card p { margin: 0; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>BrightPath HR Portal</h1>
+    <p>Choose an HR service below.</p>
+
+    <div class="links">
+      <a class="card" href="PASTE_LEAVE_FORM_PRODUCTION_URL_HERE">
+        <h2>Leave Request</h2>
+        <p>Request annual leave and check your remaining balance.</p>
+      </a>
+
+      <a class="card" href="./chatbot.html">
+        <h2>HR Chatbot</h2>
+        <p>Ask questions about the Employee Handbook.</p>
+      </a>
+    </div>
+  </main>
+</body>
+</html>
