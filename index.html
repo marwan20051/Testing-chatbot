@@ -6,12 +6,14 @@
   <title>BrightPath HR Portal</title>
   <style>
     * { box-sizing: border-box; }
+
     body {
       margin: 0;
       font: 16px/1.5 system-ui, sans-serif;
       color: #183044;
       background: #f2f6f8;
     }
+
     main {
       max-width: 850px;
       margin: 60px auto;
@@ -20,13 +22,17 @@
       border-radius: 16px;
       box-shadow: 0 8px 30px #18304415;
     }
+
     h1 { margin-top: 0; color: #126b78; }
+    .subtitle { color: #526775; }
+
     .links {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
       gap: 16px;
       margin-top: 28px;
     }
+
     .card {
       display: block;
       padding: 24px;
@@ -36,21 +42,25 @@
       color: #183044;
       text-decoration: none;
     }
+
     .card:hover, .card:focus-visible {
       border-color: #126b78;
       box-shadow: 0 4px 16px #126b7826;
     }
+
     .card h2 { margin: 0 0 8px; color: #126b78; }
     .card p { margin: 0; }
+    footer { margin-top: 32px; color: #71838d; font-size: 14px; }
   </style>
 </head>
 <body>
   <main>
     <h1>BrightPath HR Portal</h1>
-    <p>Choose an HR service below.</p>
+    <p class="subtitle">Choose an HR service below.</p>
 
     <div class="links">
-      <a class="card" href="https://marwannn1.app.n8n.cloud/form/9ca3fc31-f41a-4885-8070-c2ae62c160d9">
+      <a class="card"
+         href="https://marwannn1.app.n8n.cloud/form/9ca3fc31-f41a-4885-8070-c2ae62c160d9">
         <h2>Leave Request</h2>
         <p>Request annual leave and check your remaining balance.</p>
       </a>
@@ -60,6 +70,8 @@
         <p>Ask questions about the Employee Handbook.</p>
       </a>
     </div>
+
+    <footer>Portal v2</footer>
   </main>
 </body>
 </html>
